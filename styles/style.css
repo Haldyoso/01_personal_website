@@ -1,0 +1,19 @@
+/* ul#mainMenu li
+{
+    display:block;
+    list-style: none;
+    background: #416e9b url(images/arrow.png) 2% 50% no-repeat;
+    border: 1px solid #ec2020;
+    padding: 0;
+    margin-top: 5px;
+}
+
+ul#mainMenu li a
+{
+
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    padding-right:.5em;
+    color: #696969;
+} */
