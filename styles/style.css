@@ -5,4 +5,15 @@
 
 body { 
     padding-top: 130px; 
+    background-color: cornsilk;
+}
+
+h1, h2, p {
+    text-align:center;
+}
+.btn-group { 
+  
+        display: table;
+        margin: 0 auto;
+      
 }
