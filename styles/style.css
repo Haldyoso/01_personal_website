@@ -24,3 +24,19 @@ h1, h2, p {
     text-align: center;
     outline:1px solid rgb(248, 104, 104);
 }
+
+
+.collapse{
+    outline:1px solid rgb(101, 21, 167);
+}
+
+.mainMenu{
+    outline:20px solid rgb(58, 247, 33);
+    font-size: 5rem
+}
+
+
+.btn-circle{
+    outline:1px solid rgb(255, 255, 255);
+    font-size: 2rem
+}
