@@ -43,5 +43,8 @@ h1, h2, p {
     font-size: 3rem;
     width: 70px;
     height: 70px;  
-    border-radius: 25%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 12px #0000008c;
+    background: white;
+    margin: 5px;
 }
