@@ -1,7 +1,4 @@
-#sayMyName{
-    color: #6fc5ff;
-  
-}
+
 
 body { 
     padding-top: 130px; 
@@ -48,3 +45,23 @@ h1, h2, p {
     background: white;
     margin: 5px;
 }
+
+#sayMyName{
+    color: #6fc5ff;
+    
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);  
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation : animate 50s linear infinite;
+
+
+}
+
+@keyframes animate{
+    0%{
+        background-position : 0%;
+    }
+    100%{
+        background-position : 400%;
+    }
