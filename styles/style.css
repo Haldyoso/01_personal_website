@@ -2,8 +2,34 @@
 
 body { 
     padding-top: 130px; 
-    background-color: cornsilk;
+    background-color: #333;
+    color: #ccc;
 }
+
+html::-webkit-scrollbar {
+    width: 1.5vw;
+    
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: .5vw;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+
+  }
+
+  html::-webkit-scrollbar-track {
+    background-color: #333;
+  }
+
+  html::-webkit-scrollbar-track:hover {
+    background-color: #555;
+  }
+
+
 
 h1, h2, p {
     text-align:center;
@@ -28,7 +54,7 @@ h1, h2, p {
 }
 
 .mainMenu{
-    outline:20px solid rgb(58, 247, 33);
+    outline:20px solid rgb(33, 247, 194);
     font-size: 5rem
 }
 
