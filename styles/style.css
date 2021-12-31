@@ -57,9 +57,10 @@ h1, h2, p {
 }
 .arrow {
   display: grid;
-  font-size: 20rem;
+  font-size: 5rem;
   justify-content:center;
   align-content:flex-end;
+  animation: fadeIn 1s infinite alternate;
 }
 
 .vhbox{
@@ -113,3 +114,10 @@ h1, h2, p {
     100%{
         background-position : 400%;
     }
+  }
+
+  @import "compass/css3";
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}    
