@@ -1,7 +1,6 @@
 
 
 body { 
-    padding-top: 130px; 
     background-color: #333;
     color: #ccc;
 }
@@ -47,25 +46,38 @@ h1, h2, p {
 
 
 
+/* BOX */
+.zeroBox {
+  background-image: linear-gradient(0deg, red,  #333);
+}
+  .firstBox {
+    background-image: linear-gradient(70deg, red,  #333);
+  }
 
-.firstBox {
-  display: grid;
-  background-image: linear-gradient(70deg, red,  #333);
-}
-.secondBox {
-  background-image: linear-gradient(120deg, #333,red  );
-}
-.arrow {
-  display: grid;
-  font-size: 5rem;
-  justify-content:center;
-  align-content:flex-end;
-  animation: fadeIn 1s infinite alternate;
-}
+  .secondBox {
+    background-image: linear-gradient(120deg, #333,red  );
+  }
 
-.vhbox{
-  height: 100vh;
-}
+  .vhbox{
+    height: 100vh;
+    display: grid;
+  }
+  .arrow {
+    display: grid;
+    font-size: 5rem;
+    justify-content:center;
+    align-content:flex-end;
+    animation: sipka01 1s infinite alternate;
+  }
+
+  .picMe{
+    max-height: 80vh ;
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    
+  }
+
 .container-box {
     text-align: center;
     outline:1px solid rgb(248, 104, 104);
@@ -102,12 +114,14 @@ h1, h2, p {
     background-size: 400%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation : animate 99s linear infinite;
+    
+    
+    animation : nameColorChange 99s linear infinite;
 
 
 }
 
-@keyframes animate{
+@keyframes nameColorChange{
     0%{
         background-position : 0%;
     }
@@ -116,8 +130,7 @@ h1, h2, p {
     }
   }
 
-  @import "compass/css3";
 
-@keyframes fadeIn { 
+@keyframes sipka01 { 
   from { opacity: 0; } 
 }    
