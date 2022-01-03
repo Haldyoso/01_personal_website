@@ -72,18 +72,17 @@ h1, h2, p {
 
   .picMe{
     height: 100vh ;
-    display: grid;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    /* justify-content: baseline;
-    align-items: center; */
-    
+    opacity: 5%;
+  }
+  .picMe2{
+    height: 100vh ;
+
+    opacity: 2%;
   }
 
-  .emptyDiv1{
-    height: 100vh; 
-    opacity: 0;
-  }
+
 
 .container-box {
     text-align: center;
@@ -114,7 +113,7 @@ h1, h2, p {
     margin: 5px;
 }
 
-#sayMyName{
+#sayMyName  {
     color: #6fc5ff;
     
     background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);  
@@ -127,6 +126,22 @@ h1, h2, p {
 
 
 }
+
+/* .nebickoVPapulke {
+  font-size: 0.2rem;
+  background-image: url("/image/me_1080p.png");
+  background-repeat: no-repeat;
+  background-size: 100vh ;
+  /* height: 100vh; */
+  width:199px;
+  background-clip: text;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+ 
+  
+  -webkit-background-clip: text;
+  color: transparent;
+} */
 
 @keyframes nameColorChange{
     0%{
