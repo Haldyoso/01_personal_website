@@ -65,11 +65,22 @@ h1, h2, p {
   .arrow {
     display: grid;
     font-size: 5rem;
-    justify-content:center;
-    align-items:flex-end;
+    justify-items:center;
+    align-content:flex-end;
     animation: sipka01 1s infinite alternate;
     color: white;
     text-decoration: none;
+  }
+
+  .midContainer{
+    display: grid;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .arrowPosition{
+    display: grid;
+    align-content: end;
+    justify-content: center;
   }
 
   .arrow:hover {
@@ -77,29 +88,22 @@ h1, h2, p {
     color: yellow;
   }
 
-  .backToTop{
+  .backToTopArrow{
     display: grid;
     font-size: 5rem;
-    justify-content:right;
-    align-items:flex-end;
     color: white;
     text-decoration: none;
     animation: sipka01 2s infinite alternate;
+    width: fit-content;
+    block-size: fit-content;
+    padding: 1rem;
   }
 
-  .backToTop:hover {
+  .backToTopArrow:hover {
     display: grid;
     color: yellow;
   }
 
-  .backToTopText{
-    display: grid;
-    font-size: 1rem;
-    justify-content:right;
-    align-items:flex-end;
-    height: max-content;
-    width: max-content;
-  }
 
   .picMe{
     height: 100vh ;
@@ -113,7 +117,12 @@ h1, h2, p {
     opacity: 2%;
   }
 
+.backToTopAlign{
+  display: grid;
+  align-content: end;
+  justify-content: flex-end;
 
+}
 
 .container-box {
     text-align: center;
