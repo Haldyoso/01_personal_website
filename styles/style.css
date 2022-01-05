@@ -136,11 +136,13 @@ h1, h2, p {
 }
 
 .mainMenu{
-    outline:20px solid rgb(33, 247, 194);
-    font-size: 5rem
+    
 }
 
-
+.liMainMenu {
+  list-style-type: none;
+  
+}
 .btn-circle{
     display: flex;
     justify-content: center;
@@ -152,6 +154,8 @@ h1, h2, p {
     box-shadow: 10px 10px 12px #0000008c;
     background: white;
     margin: 5px;
+    text-decoration: none;
+    
 }
 
 #sayMyName  {
