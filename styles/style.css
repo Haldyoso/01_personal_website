@@ -44,6 +44,10 @@ h1, h2, p {
 
 }
 
+.divSoft{
+  min-width: fit-content;
+}
+
 .mainProgressContainer{
   
  background-color: yellow;
