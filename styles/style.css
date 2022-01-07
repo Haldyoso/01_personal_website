@@ -6,7 +6,7 @@ body {
 }
 
 html::-webkit-scrollbar {
-    width: 1vw;
+    width: 15px;;
     
   }
 
@@ -44,24 +44,43 @@ h1, h2, p {
 
 }
 
+.mainProgressContainer{
+  
+ background-color: yellow;
 
+}
 
 /* BOX */
 .zeroBox {
   background-image: linear-gradient(0deg, red,  #333);
 }
-  .firstBox {
+.firstBox {
     background-image: linear-gradient(70deg, red,  #333);
   }
 
-  .secondBox {
+.secondBox {
     background-image: linear-gradient(120deg, #333,red  );
   }
+
+  .zeroBox{
+    height: 100vh;
+    display: grid;
+    
+  }
+
+.nieco {
+  display: inline-block;
+}
 
   .vhbox{
     height: 100vh;
     display: grid;
+    padding: 3rem 1.5rem;
+    display: block;
+    box-sizing: inherit;
   }
+
+
   .arrow {
     display: grid;
     font-size: 5rem;
@@ -135,9 +154,7 @@ h1, h2, p {
     outline:1px solid rgb(101, 21, 167);
 }
 
-.mainMenu{
-    
-}
+
 
 .liMainMenu {
   list-style-type: none;
