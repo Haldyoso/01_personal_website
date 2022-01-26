@@ -238,3 +238,17 @@ h1, h2, p {
 @keyframes sipka01 { 
   from { opacity: 0; } 
 }    
+
+#projects{
+  border-style: solid;
+  border-color: blue;
+  border-radius: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 2rem;
+  padding: 1rem;
+}
